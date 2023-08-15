@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.container {
+    margin: 33px auto;
+    background-color: rgb(0, 23, 85);
+    color: white;
+    display: flex;
+    width: 550px;
+    height: 320px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+}
+h1 {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+.guest, .home {
+    margin: 0px 25px;
+}
+
+#home--btn, #guest--btn {
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    background-color: black;
+    color: rgb(255, 64, 64);
+    font-family: 'Raleway Dots', cursive;
+    font-size: 90px;
+    //font-weight: 400;
+    //line-height: 127px;
+    //letter-spacing: 0em;
+    //text-align: center;
+    border-radius: 7px;
+
+
+}
+
+#saveButton {
+    border: 10px solid #000;
+    color: white;
+    background-color: #0817F1;
+    padding: 10px 7px;
+    position: sticky;
+    top: 0;
+}
+#saveP {
+    border: 10px solid #000;
+    color: white
+    
+}
+#saveContainer {
+    border-top: 18px inset #F10C0C;
+border-right: 15px outset #0831E6;
+border-bottom: 17px dashed #ED0606;
+border-left: 8px dotted #0817F1;
+background: linear-gradient(155deg, #C50F0F 0%, #2D0A0A 5%, #0F16C5 58%, #351D1D 69%, #D42323 75%, #fff 100%);
+}
+
+//<div id="saveContainer">
+
+//<button id="saveButton">SAVE</button>
+//<p id="saveP">Home Count: </p>
+  //  <p id="saveP">Guest Count: </p>                                
+    //        </div>
+
+.operate {
+    width: 175px;
+    height: 55px;
+    //margin: 15px;
+    //align-items: center;
+    //justify-content: center;
+    //text-align: center;
+    margin-right: 0px;
+    padding-left: 8px;
+    border: 1px solid white;
+    
+}
+
+.operate > button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    border: white;
+}
+.operate > button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    
+
+}
+.operate > button:active {
+    background-color: gray;
+    
+}

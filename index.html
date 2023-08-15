@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title> Basketball Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="home">
+                <h1>HOME</h1>
+                <button id="home--btn">0</button>
+                <div class="operate">
+                    <button onclick="plusOne()">+1</button>
+                    <button onclick="plusTwo()">+2</button>
+                    <button onclick="plusThree()">+3</button>
+                </div>
+            </div>
+        
+        <div id="resetContainer"> 
+            
+            <button class="resetButton"  onclick="reset()">RESET</button>
+            
+        </div>
+    
+        
+            <div class="guest">
+                <h1>GUEST</h1>
+                <button id="guest--btn">0</button>
+                <div class="operate">
+                    <button onclick="guestPlusOne()">+1</button>
+                    <button onclick="guestPlusTwo()">+2</button>
+                    <button onclick="guestPlusThree()">+3</button>                   
+                </div>
+            </div>
+        </div>
+        
+        <div id="saveContainer">
+
+<button id="saveButton" onclick="saveClick()">SAVE</button>
+<p id="home-count">Home Count: </p>
+    <p id="guest-count">Guest Count: </p>                                
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
